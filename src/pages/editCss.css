@@ -1,0 +1,21 @@
+.edit__block{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.compl__ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 15px;
+    box-shadow: -3px -1px 19px -5px rgba(34, 60, 80, 0.32);
+}
+.compl__ul li {
+    text-decoration: line-through red;
+    margin-left: 15px;
+    font-size: 20px;
+}
